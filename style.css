@@ -1,0 +1,54 @@
+body {
+    background-color: #fdde7e;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.main div {
+    text-align: center;
+    background-color: white;
+    padding: 1% 6% 2% 6%;
+}
+
+.main .first_and_third_div {
+    margin: 2% 0;
+}
+
+.main .second_div {
+    padding: 3% 6% 4% 6%;
+}
+
+.price {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 70px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #02995b;
+}
+
+.title {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 56px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.main p {
+    width: 70%;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    margin: 0 auto;
+}
+
+div:hover {
+    background-color: rgba(74, 230, 126, 0.384);
+}
