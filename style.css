@@ -5,6 +5,7 @@ body {
 .main {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 5%;
 }
 
@@ -52,12 +53,8 @@ div:hover {
     background-color: rgba(74, 230, 126, 0.384);
 }
 
-@media (max-width: 486px) { 
-    .main {
-        display: block;
-    }
-   
+@media (max-width: 672px) {
     .main .second_div {
         margin: 10% 0;
     }
- }
+}
